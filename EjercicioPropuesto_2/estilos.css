@@ -1,0 +1,116 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('ejercicio2.2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contenedor_total {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.contenedor1 {
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    background-color: none;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+.contenedor1 div {
+    margin: 20px 5px;
+    color: white;
+    transition: all 500ms;
+}
+
+.contenedor1 div h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.cabecera {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2 {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    backdrop-filter: blur(20px);
+    background-color: rgb(255 255 255 / 0.50);
+    border-radius: 20px;
+}
+
+.contenedor2 li{
+    width: 100%;
+    top: -25px;
+    left: 20px;
+    max-width: 1000px;
+    margin-top: 150px 50px;
+    padding: -10px;
+    border: none;
+    justify-content: center;
+    background: rgb(112 128 144 / 0.19);
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor2 ul{
+    color: black;
+    position: center;
+    justify-content: center;
+    top: -25px;
+    left: 20px;
+    width: 100%;
+    top: -25px;
+    left: 60px;
+    max-width: 1000px;
+    margin-top: 150px 50px;
+}
+
+.contenedor2 input {
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 200px;
+    border: none;
+    font-size: 14px;
+    background: #366873;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    justify-content: center;
+    left: 10px;
+}

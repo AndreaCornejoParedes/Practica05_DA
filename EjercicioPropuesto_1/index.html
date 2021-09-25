@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - JavaScript</title>
+    <link rel="stylesheet" href="Estilos.css" />
+</head>
+
+<body>
+
+    <main>
+        <div class="contenedor_total">
+            <div class="contenedor1">
+                <div class="cabecera">
+                    <h1>Bienvenidos a la página de registro</h1>
+                </div>
+            </div>
+
+            <div class="contenedor2">
+                <form action="" class="contenido">
+                    <h2>Registro de empleados</h2>
+                    <input id="nombre" type="text" placeholder="Nombres Completos" />
+                    <input id="puesto" type="text" placeholder="Puesto de trabajo" />
+                    <input id="horas" type="number" placeholder="Horas trabajadas" />
+                    <button type="button" id="calcular" onclick="calcular(horas)"> Calcular salario</button>
+                    <p>
+                        Salario mensual: <script>calcular(horas)</script>
+                    </p>
+                    <button type="button" id="guardar" onclick="guardar(nombre, puesto)"> Guardar</button>
+                    <script src="js/script.js"></script>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
